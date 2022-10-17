@@ -7,6 +7,7 @@ public class U2Kvadraticka {
 		
 		double diskriminant = 0;
 		
+		//TODO
 		
 		System.out.println("D = " + diskriminant);
 
