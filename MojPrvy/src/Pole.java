@@ -17,26 +17,27 @@ public class Pole {
 		cisla[0] = 11;
 		cisla[1] = -3;
 		System.out.println("-------------");
-		for(int i = 0; i < 7; i++) {
+		for(int i = 0; i < cisla.length; i++) {
 			System.out.print(cisla[i] + " ");
 		}
 		
 		
-		String[] mena = {"David", "Martin", "Robo", "Oliver", "Erik"};
+		String[] mena = {"David", "Martin", "Robo", "Oliver", "Erik", "Gabriel"};
+		
+		int[] vyska4A = {198, 170, 168, 189, 175, 194};
+		
 		
 		System.out.println("\nDruhy v zozname je " + mena[1]);
 		
+		System.out.println("Pocet ziakov: " + mena.length);
+		System.out.println("-------------");
+		for(int i = 0; i < mena.length; i++) {
+			System.out.println((i + 1) + ". " + mena[i] + ": " + vyska4A[i] + " cm");
+		}
 		
 		
+		System.out.println("Posledny v zozname je " + mena[mena.length - 1]);
 		
 		
-		
-		
-		
-		
-		
-		
-
 	}
-
 }
