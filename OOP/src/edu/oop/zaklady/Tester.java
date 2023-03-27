@@ -6,8 +6,12 @@ public class Tester {
 		
 		Student s = new Student();
 		
+		System.out.println(s.meno);
 		s.meno = "Fero";
 		s.priezvisko = "Mrkva";
+		
+		System.out.println(s.vek);
+		
 		s.vek = 15;
 		
 		Student s2 = new Student();
@@ -28,6 +32,18 @@ public class Tester {
 		
 		System.out.println(s.typSkoly());
 		System.out.println(s2.typSkoly());
+		
+		Student s3 = new Student("Marienka", "Ciapockova", 47);
+		
+		s3.info();
+		
+		System.out.println("--------------");
+		s3.info(false);
+		
+		
+		
+		
+		
 
 	}
 
